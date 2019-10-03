@@ -1,0 +1,16 @@
+
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'engin',
+        'NAME': 'name',
+        'USER': 'usernme',
+        'PASSWORD': 'pass',
+        'HOST': 'localhost',
+        'PORT': '3306',
+        'TEST': {
+            'NAME': 'name',
+        },
+    }
+
+}
