@@ -5,7 +5,7 @@ FRS (Flight Reservation System) is Restfull API project with django rest framewo
  And fill you DB info on that. This projects use ```mariaDB``` as database.
 3. ```/api/v1/users/``` create new user 
 4. ```/api/v1/login/``` login API.
-This api will return a token.
+This api will return a JWT token.
 4. use that token to
  get ```/api/v1/flights/?search=```,
  create ```api/v1/flights/```, 
